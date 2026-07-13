@@ -1,0 +1,155 @@
+// General Theme Info
+name = Leenium Ghidra
+lookAndFeel = Flat Dark
+useDarkDefaults = true
+
+// Leenium Palette
+color.leenium.black = #020405
+color.leenium.bg = #0b1113
+color.leenium.mantle = #0e1518
+color.leenium.panel = #11191c
+color.leenium.card = #141e21
+color.leenium.popup = #182326
+color.leenium.floating = #1d2a2d
+color.leenium.hover = #223033
+color.leenium.active = #304144
+color.leenium.selection = #365156
+color.leenium.text = #d8e3e0
+color.leenium.soft = #a4b4b2
+color.leenium.muted = #718688
+color.leenium.accent = #33b8a8
+color.leenium.cyan = #59d6c5
+color.leenium.sea = #4dba7a
+color.leenium.sea_bright = #67cf94
+color.leenium.type = #71e4d8
+color.leenium.overlay1 = #4a5f62
+color.leenium.overlay2 = #718688
+color.leenium.warn = #d9c76b
+color.leenium.warn_bright = #efd45e
+color.leenium.orange = #f4a259
+color.leenium.error = #e16f73
+color.leenium.error_soft = #f08787
+color.leenium.blue = #5e9bff
+color.leenium.white = #f2f8f6
+
+// Decompiler Colors
+color.fg.decompiler.comment = color.leenium.muted
+color.fg.decompiler.constant = color.leenium.orange
+color.fg.decompiler.function.name = color.leenium.type
+color.fg.decompiler.keyword = color.leenium.accent
+color.fg.decompiler.type = color.leenium.type
+color.fg.decompiler.variable = color.leenium.text
+color.fg.decompiler.parameter = color.leenium.error_soft
+color.fg.decompiler.global = color.leenium.warn
+
+// Listing Colors
+color.fg.listing.bytes = color.leenium.accent
+color.fg.listing.comment.auto = color.leenium.muted
+color.fg.listing.comment.eol = color.leenium.muted
+color.fg.listing.comment.plate = color.leenium.muted
+color.fg.listing.comment.post = color.leenium.muted
+color.fg.listing.comment.pre = color.leenium.muted
+color.fg.listing.comment.ref.repeatable = color.leenium.error
+color.fg.listing.comment.repeatable = color.leenium.error
+color.fg.listing.constant = color.leenium.orange
+color.fg.listing.ext.entrypoint = color.fg
+color.fg.listing.ext.ref.resolved = color.leenium.accent
+color.fg.listing.function.name = color.leenium.error_soft
+color.fg.listing.function.param.dynamic = color.leenium.error_soft
+color.fg.listing.label.local = color.leenium.cyan
+color.fg.listing.label.primary = color.leenium.warn
+color.fg.listing.mnemonic = color.leenium.accent
+color.fg.listing.mnemonic.override = color.fg
+color.fg.listing.underline = color.leenium.error
+color.fg.listing.xref = color.leenium.sea
+color.fg.listing.xref.read = color.leenium.error
+color.fg.listing.ext.ref.unresolved = color.leenium.cyan
+color.fg.listing.label.non.primary = color.leenium.white
+color.fg.listing.register = color.leenium.cyan
+color.fg.listing.function.variable = color.leenium.text
+color.fg.listing.block.start = color.leenium.warn
+color.fg.listing.function.tag = color.leenium.warn
+color.fg.listing.tabs.text.selected = color.leenium.accent
+
+color.bg.selection = color.leenium.selection
+color.bg.undefined = color.leenium.selection
+color.bg.highlight = color.leenium.active
+color.bg.header.active = color.leenium.accent
+color.fg.header.active = color.leenium.black
+color.bg.header.inactive = color.leenium.selection
+
+color.palette.highlight.transparent.yellow = color.leenium.warn
+
+color.bg.filterfield = color.leenium.selection
+color.fg.filterfield = color.leenium.white
+
+color.fg.interpreterconsole.error = color.leenium.error
+color.fg.consoletextpane = color.leenium.white
+
+color.fg.listing.flow.arrow.selected = color.leenium.warn
+color.fg.listing.flow.arrow.active = color.leenium.sea
+color.fg.listing.flow.arrow.inactive = color.leenium.error
+
+color.bg = [color]system.color.bg.view
+
+color.bg.plugin.overview.address.function = color.leenium.accent
+color.bg.plugin.overview.address.instruction = color.leenium.cyan
+color.bg.plugin.overview.address.data = color.leenium.warn
+color.bg.plugin.overview.address.undefined = color.leenium.error
+color.bg.plugin.overview.address.uninitialized = color.leenium.white
+color.bg.plugin.overview.address.external.ref = color.leenium.orange
+
+color.bg.plugin.bookmark.note = color.leenium.accent
+color.bg.plugin.bookmark.default = color.leenium.sea
+color.bg.plugin.bookmark.info = color.leenium.warn
+color.bg.plugin.bookmark.warning = color.leenium.orange
+color.bg.plugin.bookmark.analysis = color.leenium.accent
+color.bg.plugin.bookmark.error = color.leenium.error
+
+color.bg.listing.highlighter.default = color.leenium.selection
+color.bg.listing.highlighter.scoped.read = color.leenium.accent
+color.bg.listing.highlighter.scoped.write = color.leenium.sea
+
+color.cursor.focused = color.leenium.cyan
+
+[color]system.color.bg.view = color.leenium.card
+[color]system.color.fg.view = color.leenium.text
+[color]system.color.bg.border = color.leenium.mantle
+[color]system.color.bg.control = color.leenium.panel
+[color]system.color.bg.tooltip = color.leenium.popup
+[color]system.color.bg.selected.view = color.leenium.selection
+[color]system.color.fg.control = color.leenium.text
+[color]system.color.fg.disabled = color.leenium.muted
+[color]system.color.fg.selected.view = color.leenium.text
+[color]system.color.fg.tooltip = color.leenium.text
+
+[color]laf.palette.color.04 = color.leenium.accent        // Primary button bg
+[color]laf.palette.color.08 = color.leenium.cyan          // Primary button hover bg
+[color]laf.palette.color.09 = color.leenium.sea           // Primary button click bg
+[color]laf.palette.color.10 = color.leenium.mantle        // Secondary button hover bg
+[color]laf.palette.color.14 = color.leenium.black         // Secondary button click bg
+[color]laf.palette.color.16 = color.leenium.black         // Tab bar edge
+[color]laf.palette.color.31 = color.leenium.muted        // Menubar shortcut keys fg
+[color]laf.palette.color.33 = color.leenium.soft         // Dropdown select arrow
+[color]laf.palette.color.59 = color.leenium.hover        // File menu selection inactive bg
+[color]laf.palette.color.60 = color.leenium.hover        // Toolbar border
+[color]laf.palette.color.61 = color.leenium.selection    // Menubar item hover bg
+[color]laf.palette.color.86 = color.leenium.accent       // Selected tab accent
+[color]laf.palette.color.71 = color.leenium.accent
+[color]laf.palette.color.72 = color.leenium.overlay1
+[color]laf.palette.color.73 = color.leenium.hover
+[color]laf.palette.color.69 = color.leenium.accent
+[color]laf.palette.color.62 = color.leenium.hover
+[color]laf.palette.color.63 = color.leenium.accent
+[color]laf.palette.color.32 = color.leenium.panel        // Menubar bg color
+[color]laf.palette.color.20 = color.leenium.selection
+[color]laf.palette.color.82 = color.leenium.active       // Resize border indicator
+[color]laf.palette.color.85 = color.leenium.panel        // Tab selected bg
+
+[color]laf.color.TextArea.caretForeground = [color]color.leenium.cyan
+[color]laf.color.TextField.caretForeground = [color]color.leenium.cyan
+[color]laf.color.Button.default.foreground = [color]color.leenium.black
+[color]laf.color.ProgressBar.background = [color]color.leenium.mantle
+[color]laf.color.ProgressBar.foreground = [color]color.leenium.accent
+[color]laf.color.ProgressBar.selectionBackground = [color]color.leenium.black
+[color]laf.color.ProgressBar.selectionForeground = [color]color.leenium.black

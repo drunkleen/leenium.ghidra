@@ -1,8 +1,6 @@
 <div align="center">
 
-# Leenium Ghidra
-
-<img src="./assets/icon.png" width="120" alt="Leenium Ghidra logo" />
+<img src="https://raw.githubusercontent.com/drunkleen/leenium.webpage/refs/heads/master/assets/LEENIUM.png" width="250" alt="Leenium logo" />
 
 **A dark Ghidra theme built from the shared Leenium palette, inspired by the Catppuccin Mocha Ghidra theme and tuned to match the Leenium editor and Neovim colors.**
 
@@ -63,5 +61,7 @@ Visit [github.com/drunkleen](https://github.com/drunkleen) or [leenium.drunkleen
 ## License
 
 MIT © [Leenium](LICENSE)
+
+<img src="https://raw.githubusercontent.com/drunkleen/leenium.webpage/refs/heads/master/assets/footer.png" width="100%" alt="Leenium footer" />
 
 MIT © [Leenium](LICENSE)
